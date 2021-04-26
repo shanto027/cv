@@ -49,7 +49,7 @@ p {
   line-height: 17pt;
 }
 a {
-  color: #ffffff;
+  color: #000;
 }
 .clear {
   clear: both;
@@ -94,7 +94,7 @@ h3 {
 }
 h2 {
   font-size: 22pt;
-  line-height: 37pt;
+  line-height: 32pt;
   margin: 0px;
 }
 h3 {
@@ -102,7 +102,7 @@ h3 {
   line-height: 24pt;
 }
 h4 {
-  font-size: 12pt;
+  font-size: 11pt;
   line-height: 20pt;
   opacity: 1;
 }
@@ -135,8 +135,8 @@ body {
 */
 .sidebar {
   text-align: left;
-  color: #ffffff;
-  background-color: #5da4d9;
+  color: #000!important;
+  background-color: white!important;
   overflow: hidden;
   display: block;
 }
@@ -213,7 +213,7 @@ body {
   margin: 0px;
 }
 .sidebar .info {
-  border-bottom: 1px solid #4783c2;
+  border-bottom: 1px solid gray!important;
   padding-left: 0px;
 }
 .sidebar .info span {
@@ -221,7 +221,7 @@ body {
   font-weight: 300;
 }
 .sidebar .personal {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .sidebar .personal h4 {
   margin: 0px;
@@ -256,7 +256,7 @@ body {
 }
 .sidebar .skill-line h3 {
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .sidebar .skill-line span {
   opacity: initial;
